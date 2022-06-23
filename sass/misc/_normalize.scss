@@ -1,0 +1,50 @@
+/* Nomarlizacion */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Para que se repartan las medidas y no se agreguen a lo default */
+}
+
+html {
+    font-size: 62,5%; /* Para que la medida rem y em sean 10px */
+}
+
+ol ,ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+   & :hover {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+ 
+main {
+    text-align: center;
+    background-color: #ff7cbc;
+    border: 0.7rem rgba(181,255,255,1) solid;
+    padding: 1rem;
+  }
+
+h1 {
+    font-family: 'Oswald';
+    color: white;
+    font-weight: 500px;
+}
+
+h2 {
+    font-family: 'Oswald';
+    color: white;
+    font-weight: 500px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
