@@ -1,0 +1,61 @@
+/* Vista Escritorio */
+@media only screen and (min-width: 769px) {
+
+    .nosotros {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        &__item {
+            background-color: rgba(181,255,255,1);
+            height: 30rem ;
+            width: 20rem;
+            overflow: hidden;
+        }
+    
+        &__item--imagen {
+            border: 0.7rem rgba(181,255,255,1) solid;
+            max-width: 1000px;
+            height: 30rem;
+            width: 40rem;
+            
+        }
+    }
+
+    
+}
+
+ /* Vista Tablets */
+ @media only screen and (max-width: 768px) {
+
+    .nosotros {
+        padding-left: 0;
+
+        &__item {
+            background-color: rgba(181,255,255,1);
+        }
+        &__item--imagen {
+            margin-bottom: 1rem;
+            border: 0.7rem rgba(181,255,255,1) solid;
+        }
+     }
+    
+ }
+
+ /* Vista celular */
+ @media only screen and (max-width: 560px) {
+    
+    .nosotros {
+        padding-left: 0;
+
+        &__item {
+            background-color: rgba(181,255,255,1);
+        }
+        &__item--imagen {
+            margin-bottom: 1rem;
+            border: 0.7rem rgba(181,255,255,1) solid;
+        }
+     }
+ }

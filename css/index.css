@@ -355,3 +355,13 @@ footer {
     }
 
 }
+
+/*         @for $i from 1 through 4 {
+            &__imagen:nth-child(#{$i}) {
+                
+            }
+            @for $j from start through end {
+                
+            }
+            
+        } */
