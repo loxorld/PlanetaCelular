@@ -1,0 +1,56 @@
+footer {
+    background: rgb(181,255,255);
+    background: linear-gradient(0deg, rgba(181,255,255,1) 4%, rgba(193,239,254,1) 22%, rgba(227,192,251,1) 39%, rgba(252,157,249,1) 61%, rgba(255,124,188,1) 84%);
+    padding: 1rem;
+} 
+
+/* Vista escritorio */
+@media only screen and (min-width: 769px) {
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__redes {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+}
+
+
+ /* Vista Tablets */
+ @media only screen and (max-width: 768px) {
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__redes {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+
+    
+ }
+
+ /* Vista celular */
+ @media only screen and (max-width: 560px) {
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__redes {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+
+    
+ }
+ 
