@@ -364,4 +364,12 @@ footer {
                 
             }
             
-        } */
+        } 
+        
+        es un for con palabras 
+        @each $i in ejem1, ejem2, ejem3 {
+            
+            
+        }
+        
+        */

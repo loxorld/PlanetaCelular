@@ -32,15 +32,12 @@ main {
   border: 0.7rem #b5ffff solid;
   padding: 1rem; }
 
-h1 {
+h1, h2 {
   font-family: "Oswald";
   color: white;
   font-weight: 500px; }
 
 h2 {
-  font-family: 'Oswald';
-  color: white;
-  font-weight: 500px;
   padding-top: 3rem;
   padding-bottom: 1rem; }
 
@@ -60,8 +57,9 @@ header {
   /* Barra de Navegacion */
   .menu {
     display: flex;
-    justify-content: center;
-    align-items: flex-end; }
+    flex-direction: none;
+    align-items: flex-end;
+    justify-content: center; }
     .menu__item {
       font-family: 'Oswald';
       font-size: 1.5rem;
@@ -82,8 +80,9 @@ header {
   /* Barra de Navegacion */
   .menu {
     display: flex;
-    justify-content: center;
+    flex-direction: none;
     align-items: flex-end;
+    justify-content: center;
     padding-left: 0; }
     .menu__item {
       font-family: 'Oswald';
@@ -98,6 +97,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: none;
     padding-left: 0;
     padding-right: 0; }
     .menu__item {
@@ -117,33 +117,42 @@ footer {
 @media only screen and (min-width: 769px) {
   .footer {
     display: flex;
+    flex-direction: none;
     align-items: center;
     justify-content: center; }
     .footer__redes {
       display: flex;
       flex-direction: column;
+      align-items: none;
+      justify-content: none;
       gap: 1rem; } }
 
 /* Vista Tablets */
 @media only screen and (max-width: 768px) {
   .footer {
     display: flex;
+    flex-direction: none;
     align-items: center;
     justify-content: center; }
     .footer__redes {
       display: flex;
       flex-direction: column;
+      align-items: none;
+      justify-content: none;
       gap: 1rem; } }
 
 /* Vista celular */
 @media only screen and (max-width: 560px) {
   .footer {
     display: flex;
+    flex-direction: none;
     align-items: center;
     justify-content: center; }
     .footer__redes {
       display: flex;
       flex-direction: column;
+      align-items: none;
+      justify-content: none;
       gap: 1rem; } }
 
 /* Views */
