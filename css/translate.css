@@ -48,7 +48,8 @@ label {
 
 .imagen {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  border-radius: 1rem; }
 
 /* Partials */
 header {
@@ -286,6 +287,15 @@ footer {
     .nosotros__item--imagen {
       margin-bottom: 1rem;
       border: 0.7rem #b5ffff solid; } }
+
+.compra {
+  list-style-type: decimal;
+  background-color: #b5ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  font-family: cursive; }
 
 /* Vista escritorio */
 @media only screen and (min-width: 769px) {

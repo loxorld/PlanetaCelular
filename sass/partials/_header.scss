@@ -9,7 +9,6 @@ header {
   
     /* Barra de Navegacion */
     .menu {
-
         @include flex(flex, none, flex-end, center);
         &__item {
             font-family: 'Oswald';

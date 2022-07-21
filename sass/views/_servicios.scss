@@ -1,0 +1,6 @@
+.compra {
+    list-style-type:decimal;
+    background-color: rgba(181,255,255,1);
+    @include flex(flex, column, flex-start, space-evenly);
+    font-family: cursive;
+}

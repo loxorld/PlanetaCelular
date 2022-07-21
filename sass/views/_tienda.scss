@@ -12,6 +12,7 @@
         
     }
 
+
     .ingresos {
         display: grid;
         justify-content: center;
@@ -19,6 +20,8 @@
         grid-row: 1fr 1fr;
         padding-left: 0;
         gap: map-get($medidas, chica);
+        
+
 
         &__imagen {
             transition: transform .6s;
@@ -28,6 +31,7 @@
         }
 
         &__imagen:nth-child(1){
+
             grid-column: 1/2 ;
             grid-row: 1 ;
         }
