@@ -178,6 +178,7 @@ footer {
       .ingresos__imagen:hover {
         transform: scale(1.05); }
     .ingresos__imagen:nth-child(1) {
+      height: 100%;
       grid-column: 1/2;
       grid-row: 1; }
     .ingresos__imagen:nth-child(2) {
@@ -249,7 +250,14 @@ footer {
 .container {
   text-align: left; }
 
+label {
+  font-family: cursive;
+  font-size: 1.5rem; }
+
 /* Vista Escritorio */
+p {
+  font-family: cursive; }
+
 @media only screen and (min-width: 769px) {
   .nosotros {
     display: flex;
@@ -297,6 +305,12 @@ footer {
   justify-content: space-evenly;
   font-family: cursive; }
 
+button {
+  border-radius: 1rem;
+  background-color: aqua;
+  font-size: 1.5rem;
+  font-family: cursive; }
+
 /* Vista escritorio */
 @media only screen and (min-width: 769px) {
   .container {
@@ -308,15 +322,19 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: none; }
+    justify-content: none;
+    gap: 2rem; }
   .ingresos {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(4, 1fr);
     grid-row: 1fr 1fr;
     padding-left: 0;
-    gap: 1rem; }
+    gap: 2.5rem; }
     .ingresos__imagen {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
       transition: transform .6s; }
       .ingresos__imagen:hover {
         transform: scale(1.05); }
@@ -358,7 +376,11 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-row: 1fr 1fr 1fr 1fr;
     padding-left: 0;
-    gap: 1rem; }
+    gap: 2.5rem; }
+    .ingresos__imagen {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
     .ingresos__imagen:nth-child(1) {
       grid-column: 1/2;
       grid-row: 1; }
