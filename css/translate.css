@@ -301,6 +301,9 @@ footer {
 @media only screen and (min-width: 769px) {
   .container {
     max-width: 60rem; }
+  .container2 {
+    max-width: 60rem;
+    max-height: 60rem; }
   .tienda {
     display: flex;
     flex-direction: column;
