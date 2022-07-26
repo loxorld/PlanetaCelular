@@ -15,7 +15,7 @@ button {
     
     .container2 {
         max-width: 60rem;
-        max-height: 60rem;
+        max-height: 20rem;
     }
     
     .tienda {
@@ -92,6 +92,8 @@ button {
         
     }
 
+
+
     .ingresos {
         display: grid;
         justify-content: center;
@@ -146,4 +148,5 @@ button {
         display: flex;
         flex-direction: column;     
     }
+
 }
